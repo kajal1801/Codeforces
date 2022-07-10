@@ -10,7 +10,7 @@ int main() {
 	    cin>>n;
 	    int arr[n];
 	    int p[n+1];
-        std::fill(p,p+n+1,0);
+        fill(p,p+n+1,0);
 	    for(i = 0;i<n;i++){
 	        cin>>arr[i];
 	        p[arr[i]] += 1;
